@@ -1,0 +1,10 @@
+﻿ProgressBar İstatistik
+Order Sayfası UI
+QR Kod Sistemi
+Default Kontrolü
+Menü Sayfası Kontrolü UI
+Ayarlar
+Uygulama seviyesinde authorize
+Mail
+
+Search ?

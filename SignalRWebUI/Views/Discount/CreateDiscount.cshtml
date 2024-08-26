@@ -1,0 +1,44 @@
+﻿@model CreateDiscountDto
+
+@{
+    ViewData["Title"] = "CreateDiscount";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <h4 class="page-title">İndirimli Ürün İşlemleri</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <form method="post">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">İndirimli Ürün İşlemleri</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="title">Ürün Adını Giriniz</label>
+                                <input type="text" class="form-control" asp-for="Title" id="title" placeholder="Ürün adını giriniz.">
+                            </div>
+                            <div class="form-group">
+                                <label for="amount">Ürün İndirim Oranını Giriniz</label>
+                                <input type="text" class="form-control" asp-for="Amount" id="amount" placeholder="Ürün indirim oranını giriniz.">
+                            </div>
+                            <div class="form-group">
+                                <label for="imageUrl">Ürün Görselini Giriniz</label>
+                                <input type="text" class="form-control" asp-for="ImageUrl" id="imageUrl" placeholder="Ürün görselini giriniz.">
+                            </div>
+                            <div class="form-group">
+                                <label for="description">Kategori Adını Giriniz</label>
+                                <input type="text" class="form-control" asp-for="Description" id="description" placeholder="İndirimli ürün açıklamasını giriniz.">
+                            </div>
+                        </div>
+                        <div class="card-action">
+                            <button class="btn btn-primary">Ekle</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
